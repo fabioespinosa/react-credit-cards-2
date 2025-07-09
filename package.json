@@ -1,6 +1,6 @@
 {
   "name": "react-credit-cards-2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Beautiful credit cards for your payment forms",
   "author": "AMARO Fashion <tech@amaro.com>",
   "contributors": [
@@ -15,12 +15,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/felquis/react-credit-cards-2.git"
+    "url": "git+https://github.com/fabioespinosa/react-credit-cards-2.git"
   },
-  "bugs": {
-    "url": "https://github.com/felquis/react-credit-cards-2/issues"
-  },
-  "homepage": "https://github.com/felquis/react-credit-cards-2#readme",
+  "homepage": "https://github.com/fabioespinosa/react-credit-cards-2#readme",
   "license": "MIT",
   "main": "dist/lib/index.js",
   "module": "dist/es/index.js",
