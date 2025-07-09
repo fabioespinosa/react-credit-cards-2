@@ -35,9 +35,6 @@
     "credit card",
     "payment"
   ],
-  "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
-  },
   "dependencies": {
     "credit-card-type": "^9.1.0",
     "luhn": "^2.4.1",
