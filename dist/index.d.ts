@@ -1,3 +1,5 @@
+import React from 'react';
+
 interface CallbackArgument {
     issuer: string;
     maxLength: number;
@@ -20,6 +22,6 @@ interface ReactCreditCardsProps {
     } | undefined;
     preview?: boolean | undefined;
 }
-declare function ReactCreditCards(props: ReactCreditCardsProps): JSX.Element;
+declare function ReactCreditCards(props: ReactCreditCardsProps): React.JSX.Element;
 
 export { CallbackArgument, Focused, ReactCreditCardsProps, ReactCreditCards as default };

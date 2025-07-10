@@ -2,22 +2,19 @@
 /** Images **/
 .rccs {
   margin: 0 auto;
-  -webkit-perspective: 1000px;
-          perspective: 1000px;
+  perspective: 1000px;
   width: 290px;
 }
 .rccs__card {
   height: 182.872997856px;
   margin: 0 auto;
   position: relative;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
   transition: all 0.4s linear;
   width: 290px;
 }
 .rccs__card--front, .rccs__card--back {
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   background: linear-gradient(25deg, #939393, #717171);
   border-radius: 14.5px;
   color: #fff;
@@ -26,8 +23,7 @@
   overflow: hidden;
   position: absolute;
   top: 0;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
   width: 100%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
@@ -35,8 +31,7 @@
   z-index: 20;
 }
 .rccs__card--back {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 .rccs__card--back .rccs__issuer {
   background-position: bottom center;
@@ -45,23 +40,20 @@
   opacity: 0.6;
   right: auto;
   top: auto;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 .rccs__card__background {
   height: 200%;
   left: -170%;
   position: absolute;
   top: -60%;
-  -webkit-transform: rotate(25deg);
-          transform: rotate(25deg);
+  transform: rotate(25deg);
   transition: all 0.5s ease-out;
   width: 150%;
   left: -170%;
 }
 .rccs__card--flipped {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 .rccs__card--flipped .rccs__card--front {
   z-index: 10;
