@@ -107,11 +107,8 @@ $rccs-visa-electron-logo: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiB
 
       .rccs__issuer {
         background-position: bottom center;
-        bottom: 5%;
-        left: 50%;
+        inset: auto auto 5% 50%;
         opacity: 0.6;
-        right: auto;
-        top: auto;
         transform: translateX(-50%);
       }
     }

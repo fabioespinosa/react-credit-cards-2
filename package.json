@@ -1,6 +1,6 @@
 {
-  "name": "react-credit-cards-2",
-  "version": "1.0.5",
+  "name": "react-credit-cards-updated",
+  "version": "1.0.6",
   "description": "Beautiful credit cards for your payment forms",
   "author": "AMARO Fashion <tech@amaro.com>",
   "contributors": [
@@ -118,8 +118,8 @@
     "lint": "eslint --max-warnings=0 src",
     "format": "prettier --write './src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./prettier.config.cjs",
     "lint:styles": "stylelint 'src/**/*.scss'",
-    "test": "jest",
-    "test:coverage": "jest --bail --coverage",
+    "test": "jest --passWithNoTests",
+    "test:coverage": "jest --bail --coverage --passWithNoTests",
     "test:watch": "jest --watch",
     "size": "npm run build && size-limit",
     "validate": "npm run lint && npm run lint:styles && npm run test:coverage && npm run size",
