@@ -1,6 +1,6 @@
 {
   "name": "react-credit-cards-2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Beautiful credit cards for your payment forms",
   "author": "AMARO Fashion <tech@amaro.com>",
   "contributors": [
@@ -36,6 +36,10 @@
     "credit-card-type": "^9.1.0",
     "luhn": "^2.4.1",
     "payment": "^2.3.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
